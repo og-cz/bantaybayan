@@ -5,6 +5,10 @@
 </p>
 </p>
 
+## About
+
+This is our Hackathon Project for Caffeine AI, We could have passed top 1 if we wasn`t late but unfortunately we lack time due to the internet connectivity and some constraints but after that we pushed further the development, as my pattern recognition says mines are far better in terms of idea, scalability, topic, benefits and etcs.
+
 ## Screenshots
 
 ### Home
