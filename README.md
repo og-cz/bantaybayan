@@ -5,10 +5,6 @@
 </p>
 </p>
 
-## About
-
-This is our Hackathon Project for Caffeine AI, We could have passed top 1 if we wasn`t late but unfortunately we lack time due to the internet connectivity and some constraints but after that we pushed further the development, as my pattern recognition says mines are far better in terms of idea, scalability, topic, benefits and etcs.
-
 ## Screenshots
 
 ### Home
@@ -47,7 +43,7 @@ This is our Hackathon Project for Caffeine AI, We could have passed top 1 if we 
 ### Dark Mode
 
 ![Tracker](readme/14.png)
-
+<!--
 ## Features
 
 - Track government projects across all 6 congressional districts in Quezon City
@@ -58,7 +54,7 @@ This is our Hackathon Project for Caffeine AI, We could have passed top 1 if we 
 - Export reports in CSV and PDF formats
 - Public commenting on projects
 - Admin dashboard for project management
-<!--
+
 
 ## Tech Stack
 
@@ -66,7 +62,7 @@ This is our Hackathon Project for Caffeine AI, We could have passed top 1 if we 
 - **Frontend**: React + TypeScript
 - **Routing**: TanStack Router
 - **Styling**: Tailwind CSS
-- **Data Fetching**: React Query -->
+- **Data Fetching**: React Query 
 
 ## Prerequisites
 
@@ -91,3 +87,4 @@ cd frontend
 pnpm install
 pnpm dev
 ```
+-->
