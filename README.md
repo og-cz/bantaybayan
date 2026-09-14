@@ -1,7 +1,7 @@
 <p align="center">
-    <img src="images/logo.png" alt="Bantay Bayan logo" width="150" />
-    <h1 style="text-align:center; margin:0">BB</h1>
-    <p style="text-align:center; margin:0">BB is a web application that promotes government accountability by allowing citizens to monitor municipal projects, track budgets, and ensure transparency in Secret City's development initiatives. The platform serves as a social-media-style interface where users can view project status, completion progress, and report concerns about potential ghost projects
+    <img src="images/logo.jpg" alt="Bantay Bayan logo" width="150" />
+    <h1 style="text-align:center; margin:0">Bantay Bayan</h1>
+    <p style="text-align:center; margin:0">Bantay Bayan is a web application that promotes government accountability by allowing citizens to monitor municipal projects, track budgets, and ensure transparency in Quezon City's development initiatives. The platform serves as a social-media-style interface where users can view project status, completion progress, and report concerns about potential ghost projects
 </p>
 </p>
 
@@ -9,7 +9,7 @@
 ## Core Features
 
 ### Home Page
-- Hero section with prominent title "Bantay Bayan" and description emphasizing its mission as a Secret public transparency platform for exposing ghost projects and promoting government accountability
+- Hero section with prominent title "Bantay Bayan" and description emphasizing its mission as a Philippine public transparency platform for exposing ghost projects and promoting government accountability
 - Large centered search bar for finding projects across all municipalities with advanced filters
 - Main feed displaying the 15 most recent projects as cards in a responsive grid layout
 - Each project card shows:
@@ -30,7 +30,7 @@
 
 ### About Page
 - Dedicated About page accessible from main navigation and footer
-- Mission statement section explaining Bantay Bayan's purpose in promoting public transparency in the Secrets
+- Mission statement section explaining Bantay Bayan's purpose in promoting public transparency in the Philippines
 - Clear explanation of the platform's role in exposing ghost projects and empowering citizens
 - Brief history section detailing the project's origins and development
 - Goals and objectives section outlining the platform's aims for government accountability
@@ -47,7 +47,7 @@
 ### District/Municipality Page
 - Profile-style layout with cover banner image
 - District name and Bantay Bayan logo display
-- Overview section with district information including all Secret and landmark notes
+- Overview section with district information including all barangays and landmark notes
 - Budget summary with visual indicators and interactive charts
 - Project history timeline showing key milestones
 - Export functionality for district data (CSV, PDF)
@@ -149,7 +149,7 @@
 - Complete district and municipality data management including:
   - District information and barangay listings
   - Landmark notes and location details
-  - Project assignments to specific districts and Secret
+  - Project assignments to specific districts and barangays
 - Add new projects with complete details including priority levels
 - Edit existing project information across all fields
 - Update project progress and milestone completion
@@ -159,7 +159,7 @@
 - User management and notification controls
 - Export and reporting tools
 - Modern card-based interface for admin functions
-- District management interface showing all 6 Secret City congressional districts
+- District management interface showing all 6 Quezon City congressional districts
 - Barangay management with landmark information for each district
 
 ### Reports Page
@@ -175,14 +175,14 @@
 ### Frontend Data Source
 The frontend must import and use provided JSON data as the primary data source for all project, district, and municipality information. All React Query hooks and page components must fetch and display data directly from the imported JSON data, ensuring real project information is displayed throughout the application.
 
-### Secret City District Structure
-The application must support all 6 congressional districts of Secret City with complete barangay listings and landmark information:
-- 1st District with all constituent Secret and landmark notes
-- 2nd District with all constituent Secret and landmark notes
-- 3rd District with all constituent Secret and landmark notes
-- 4th District with all constituent Secret and landmark notes
-- 5th District with all constituent Secret and landmark notes
-- 6th District with all constituent Secret and landmark notes
+### Quezon City District Structure
+The application must support all 6 congressional districts of Quezon City with complete barangay listings and landmark information:
+- 1st District with all constituent barangays and landmark notes
+- 2nd District with all constituent barangays and landmark notes
+- 3rd District with all constituent barangays and landmark notes
+- 4th District with all constituent barangays and landmark notes
+- 5th District with all constituent barangays and landmark notes
+- 6th District with all constituent barangays and landmark notes
 
 ### Data Loading Requirements
 - Implement robust error handling for all data-fetching components
@@ -204,7 +204,7 @@ The application must support all 6 congressional districts of Secret City with c
 The backend must store:
 - Admin authentication credentials with reliable validation for default admin account (username: "admin", password: "1234")
 - Proper session management for admin authentication with secure token handling
-- Complete Secret City district structure with all 6 congressional districts
+- Complete Quezon City district structure with all 6 congressional districts
 - Barangay listings for each district with landmark information
 - Project records with complete details (name, description, dates, progress, status, priority)
 - Proper project-to-district associations to ensure correct data display on district pages
@@ -297,7 +297,7 @@ Each notification record includes:
 - Bantay Bayan branding throughout the interface
 
 ### Color Scheme
-- Primary color palette featuring red and blue tones inspired by the Secret flag
+- Primary color palette featuring red and blue tones inspired by the Philippine flag
 - Red accents for primary buttons, highlights, and important elements
 - Blue accents for secondary buttons, links, and navigation elements
 - Consistent application of red and blue colors across all major UI components:
@@ -310,7 +310,7 @@ Each notification record includes:
   - Interactive elements and hover states
 - Maintain accessibility standards with proper contrast ratios
 - Use neutral colors (whites, grays) for backgrounds and text to ensure readability
-- Apply the Secret flag-inspired color scheme cohesively throughout the entire application for strong national identity
+- Apply the Philippine flag-inspired color scheme cohesively throughout the entire application for strong national identity
 
 ### Responsive Design
 - Mobile-first approach with responsive grid layouts
@@ -321,7 +321,7 @@ Each notification record includes:
 - Mobile-optimized comment interfaces
 
 ### Visual Components
-- Hero section with prominent Bantay Bayan branding and mission statement about Secret public transparency and anti-ghost project advocacy
+- Hero section with prominent Bantay Bayan branding and mission statement about Philippine public transparency and anti-ghost project advocacy
 - Card-based project and municipality displays with bookmark indicators
 - Interactive charts for project progress visualization and category breakdowns
 - Progress bars and completion indicators
@@ -387,7 +387,7 @@ Each notification record includes:
 
 ## Branding and Mission
 - Application name: "Bantay Bayan"
-- Mission: Secret public transparency platform focused on exposing ghost projects and promoting government accountability
-- Meta tags and descriptions emphasize focus on Secret public transparency and anti-ghost project advocacy
+- Mission: Philippine public transparency platform focused on exposing ghost projects and promoting government accountability
+- Meta tags and descriptions emphasize focus on Philippine public transparency and anti-ghost project advocacy
 - About section highlights the platform's role in government transparency and citizen oversight
 - All branding elements reflect the Bantay Bayan identity and mission
